@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EMPLOYEES_DETAILS_DATACONTRACTS/1.0.0": {
+        "dependencies": {
+          "EMPLOYEES_DETAILS_DATAOBJECTS": "1.0.0"
+        },
+        "runtime": {
+          "EMPLOYEES_DETAILS_DATACONTRACTS.dll": {}
+        }
+      },
+      "EMPLOYEES_DETAILS_DATAOBJECTS/1.0.0": {
+        "runtime": {
+          "EMPLOYEES_DETAILS_DATAOBJECTS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EMPLOYEES_DETAILS_DATACONTRACTS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EMPLOYEES_DETAILS_DATAOBJECTS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_BL\\EMPLOYEES_DETAILS_BL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_BL\\EMPLOYEES_DETAILS_BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_BL\\EMPLOYEES_DETAILS_BL.csproj",
+        "projectName": "EMPLOYEES_DETAILS_BL",
+        "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_BL\\EMPLOYEES_DETAILS_BL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\EMPLOYEES_DETAILS_DATACONTRACTS.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\EMPLOYEES_DETAILS_DATACONTRACTS.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\EMPLOYEES_DETAILS_DATACONTRACTS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\EMPLOYEES_DETAILS_DATACONTRACTS.csproj",
+        "projectName": "EMPLOYEES_DETAILS_DATACONTRACTS",
+        "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\EMPLOYEES_DETAILS_DATACONTRACTS.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATACONTRACTS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj",
+        "projectName": "EMPLOYEES_DETAILS_DATAOBJECTS",
+        "projectPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\EMPLOYEES_DETAILS_DATAOBJECTS.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Employee\\EMPLOYEES_DETAILS_WEBAPI\\EMPLOYEES_DETAILS_DATAOBJECTS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

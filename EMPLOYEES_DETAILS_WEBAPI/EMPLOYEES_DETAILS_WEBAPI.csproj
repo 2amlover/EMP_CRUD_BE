@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMPLOYEES_DETAILS_BL\EMPLOYEES_DETAILS_BL.csproj" />
+    <ProjectReference Include="..\EMPLOYEES_DETAILS_DATACONTRACTS\EMPLOYEES_DETAILS_DATACONTRACTS.csproj" />
+    <ProjectReference Include="..\EMPLOYEES_DETAILS_DATAOBJECTS\EMPLOYEES_DETAILS_DATAOBJECTS.csproj" />
+  </ItemGroup>
+
+</Project>
